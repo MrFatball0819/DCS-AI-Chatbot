@@ -1,0 +1,24 @@
+# ==================== DCS 戰術詞彙外掛對照網 ====================
+
+# 1. 徹底剿滅 take-off 和 start-up 的連字號與空格
+take-off = takeoff
+take off = takeoff
+# 強制剿滅耳機悶音導致的同音聽錯（Acoustic Correction）
+tick off = takeoff
+tick-off = takeoff
+
+start-up = startup
+start up = startup
+
+# 2. 徹底剿滅 requests 帶尾音 s 的變體
+requests takeoff = request takeoff
+requests startup = request startup
+requests landing = request landing
+requests taxi = request taxi
+
+# 3. 基礎去空格與幻覺保障
+using request = request
+we press = request
+taxi to runway = taxi to runway
+airport traffic control = airport traffic control
+
